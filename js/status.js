@@ -5,7 +5,6 @@ async function getServerStatus() {
         const response = await fetch(serverStatusURL);
         const data = await response.json();
 
-        // Verificar si el servidor está en línea
         if (data.online) {
             document.getElementById('status-server').textContent = 'En línea';
             document.getElementById('players').textContent = data.players.online + '/' + data.players.max;
