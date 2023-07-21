@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+    background-color: #1E1E1E;
+    position: fixed;
+    width: 270px;
+    height: 100%;
+}
+
+.perfile img{
+    width: 50px;
+    height: 50px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+    background-color: #DBDBDB;
+    border-radius: 50%;
+    padding: 20px;
+    width: 55%;
+    cursor: pointer;
+}
+
+.name{
+    color: black;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.options-names{
+    background-color: #272727;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.option a{
+    color: #DADADA;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.option .op{
+    color: white;
+}
+
+.option a:hover{
+    color: white;
+    
+}
+
+.option i{
+    color: #DADADA;
+    font-size: 18px;
+    margin: 0px 5px 0px 20px;
+}
+
+
+.option{
+    margin: 20px 0px 40px 0px;
+    transition: transform 0.2s linear;
+}
+
+.option:hover{
+    transform: scale(1.05);
+}
+
+.no_ad{
+    color: #888888;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+
+.container{
+    margin: 0px 0px 0px 270px;
+    transition: margin 0.3s ease-in-out, width 0.3s ease-in-out;
+    
+}
+
+.navbar{
+    background-color: #1E1E1E;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.title-page{
+    font-weight: 700;
+    margin: 0px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0px 20px;
+    transition: transform 0.3s linear;
+}
+
+.navbar img:hover{
+    transform: scale(1.2);
+}
+
+.perfile{
+    transition: transform 0.3s linear;
+}
+
+.perfile:hover{
+    transform: scale(1.1);
+}
+
+.navbar i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.content-list img{
+    width: 250px;
+    height: 200px;
+    border-radius: 35%;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+    margin: 0px 20px;
+}
+
+.content-list img:hover{
+    transform: scale(1.1);
+}
+
+.content-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    backdrop-filter: blur(10px); 
+    padding: 120px 0px;
+    border-radius: 0px 0px 20% 20% ;
+
+}
+
+.text{
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 20px;
+    font-size: 19px;
+}
+
+.discord img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px 0px 0px;
+}
+
+.redes{
+    display: flex;
+    margin: 50px 0px;
+}
+
+.discord{
+    display: flex;
+    align-items: center;
+    background-color: #535FEE;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+    border-radius: 5px;
+    margin: 0px 40px;
+
+}
+
+.discord:hover{
+    transform: scale(1.1);
+
+}
+
+.discord p{
+    margin: 0px 23px 0px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.tienda{
+    display: flex;
+    align-items: center;
+    background-color: #C5B404;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition: transform 0.3s linear;
+    border-radius: 5px;
+    margin: 0px 40px;
+
+
+}
+
+.tienda:hover{
+    transform: scale(1.1);
+}
+
+.tienda p{
+    color: white;
+    font-weight: 500;
+    margin: 0px 23px 0px 0px;
+
+}
+
+.tienda i{
+    color: white;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+.server-status{
+    display: flex;
+    flex-direction: column;
+    background-color:#1E1E1E ;
+    margin: 150px 0px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.title-status{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.content-server{
+    display: flex;
+}
+
+.content-server p{
+    margin: 0px 20px;
+    color: white;
+    list-style: circle;
+    font-weight: 600;
+}
+
+#status-server{
+    color: #66FF00;
+}
+
+#players{
+    color: #66FF00;
+}
+
+.server-status img{
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+.ip{
+    color: white;
+    font-weight: 600;
+    margin: 30px 0px 20px 0px;
+}
+
+.xd-ip{
+    margin: 0px 2px;
+    color: #FF0000;
+    cursor: pointer;
+}
+
+#apagado{
+    color: red;
+}
+

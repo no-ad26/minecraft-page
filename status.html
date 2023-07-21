@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Server Page</title>
+</head>
+<body>
+    
+    <div class="sidebar" id="sidebar">
+        <nav class="nav">
+            <div class="options">
+                <div class="perfile">
+                    <img src="/img/steve.png" alt="" class="logo-per">
+                    <p class="name">no_ad</p>
+                </div>
+                <div class="options-names op">
+                    <div class="option" id="home">
+                        <i class="uil uil-estate"></i><a href="/index.html" class="">Home Page</a>
+                    </div>
+                    <div class="option" id="status">
+                        <i class="uil uil-data-sharing"></i><a href="/status.html" class="op">Estado Del Servidor</a>
+                    </div>
+                    <div class="option" id="monedas">
+                        <i class="uil uil-usd-circle"></i></i><a href="">Monedas</a>
+                    </div>
+                    <div class="option" id="tienda-m">
+                        <i class="uil uil-store"></i></i><a href="">Tienda</a>
+                    </div>
+                    <div class="option" id="redes">
+                        <i class="uil uil-discord"></i></i><a href="">Redes</a>
+                    </div>
+                </div>
+                <p class="no_ad">Hecho por no_ad</p>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container" id="container">
+        <div class="navbar">
+            <i class="uil uil-align-justify" id="button-se"></i>
+            <p class="title-page">Server Page</p>
+            <img src="/img/discord.png" alt="">
+        </div>
+        <div class="content">
+            <div class="server-status">
+                <p class="title-status">Multibox Network</p>
+                <img src="/img/steve.png" alt="">
+                <div class="content-server">
+                    <p>Estado: <span id="status-server"></span><span id="apagado"></span></p>
+                    <p>Players: <span id="players"></span></p>
+                </div>
+                <p class="ip">Direccion Ip: <span class="xd-ip">play.hypixel.net</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="/js/status.js"></script>
+</body>
+</html>
